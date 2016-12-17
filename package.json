@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "HTMLHint extension for Fepper",
   "scripts": {
-    "postinstall": "node ./install.js"
+    "postinstall": "node ./install.js .htmlhintrc"
   },
   "repository": {
     "type": "git",
