@@ -2,8 +2,9 @@
   "name": "fp-htmlhint",
   "version": "0.0.3",
   "description": "HTMLHint extension for Fepper",
+  "main": "htmlhint~extend.js",
   "scripts": {
-    "postinstall": "node ./install.js .htmlhintrc"
+    "postinstall": "node install.js .htmlhintrc"
   },
   "repository": {
     "type": "git",
