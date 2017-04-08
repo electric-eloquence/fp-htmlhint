@@ -1,6 +1,6 @@
 {
   "name": "fp-htmlhint",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "HTMLHint extension for Fepper",
   "main": "htmlhint~extend.js",
   "scripts": {
