@@ -4,7 +4,9 @@
   "description": "HTMLHint extension for Fepper",
   "main": "htmlhint~extend.js",
   "scripts": {
-    "postinstall": "node install.js .htmlhintrc"
+    "postinstall": "node install.js .htmlhintrc",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,8 @@
   },
   "dependencies": {
     "find-up": "^3.0.0",
-    "gulp-htmlhint": "^2.1.1"
-  }
+    "gulp-htmlhint": "^2.1.1",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }
